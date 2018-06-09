@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataType) => {
-  const Tasks = sequelize.define('Tasks', {
+  const Tasks = sequelize.define("Tasks", {
     id: {
       type: DataType.INTEGER,
       primaryKey: true,
@@ -10,12 +10,12 @@ module.exports = (sequelize, DataType) => {
       allowNull: false,
       validate: {
         notEmpty: true
-      },
-      done: {
-        type: DataType.BOOLEAN,
-        allowNull: false,
-        default: false
       }
+    },
+    done: {
+      type: DataType.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
     }
   });
 
