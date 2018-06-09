@@ -1,5 +1,5 @@
-const express = require("express");
 const consign = require('consign');
+const express = require("express");
 
 const app = express();
 
@@ -10,4 +10,4 @@ consign()
   .then("libs/middlewares.js")
   .then("routes")
   .then("libs/boot.js")
-  .into("app");
+  .into(app);
