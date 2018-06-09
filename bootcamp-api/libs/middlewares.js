@@ -1,7 +1,6 @@
-module.exports = app => {
-  const port = 3000;
+const bodyParser = require('body-parser');
 
-  app.listen(port, () => {
-    console.log(`Bootcamp API - porta ${port}`);
-  });
+module.exports = app => {
+  app.set('port', 3000);
+  app.use(bodyParser.json());
 };
