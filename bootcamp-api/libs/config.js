@@ -8,5 +8,9 @@ module.exports = {
     define: {
       undescored: true
     }
+  },
+  jwtSecret: 'B007C4MP-AP1',
+  jwSession: {
+    session:false
   }
-}
+};
