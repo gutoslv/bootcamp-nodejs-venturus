@@ -2,4 +2,4 @@
 
 Using NodeJS to create a REST API
 
-Bootcamp realized at Venturus - Campinas
+Bootcamp realized on 06-09-2018 at Venturus - Campinas
