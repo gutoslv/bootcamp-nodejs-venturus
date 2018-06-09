@@ -10,7 +10,7 @@ module.exports = {
     }
   },
   jwtSecret: 'B007C4MP-AP1',
-  jwSession: {
+  jwtSession: {
     session:false
   }
 };
