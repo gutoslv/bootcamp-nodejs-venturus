@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp-api",
+  "version": "0.0.1",
+  "description": "Task Manager API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Augusto Cesar da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
